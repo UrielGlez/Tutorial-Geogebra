@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>GeoTuto</title>
+  <link rel="icon" href="Wallpapers/logop.png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      <link rel="stylesheet" href="css/menu.css">
+</head>
+
+<body>
+  <div class="overlay-navigation">
+  <nav role="navigation">
+    <ul>
+      <li class="prueba3"><a class="pruebax1" href="#" onclick="Funcionmenu(1)" data-content="Aqui encontraras todo sobre las herramientas basicas de Geogebra">Basicos<br>y<br>Puntos</a></li>
+      <li class="prueba3"><a class="pruebax2" href="#" onclick="Funcionmenu(2)" data-content="Como editar o borrar algun objeto? Aqui te mostramos como">Editar</a></li>
+      <li class="prueba3"><a class="pruebax3" href="#" onclick="Funcionmenu(3)" data-content="Crear vectores y rectas facilmente">Lineas<br>y<br>Poligonos</a></li>
+      <li class="prueba3"><a class="pruebax4" href="#" onclick="Funcionmenu(4)" data-content="Grafica planos con unos simples puntos">Planos</a></li>
+      <li class="prueba3"><a class="pruebax5" href="#" onclick="Funcionmenu(5)" data-content="Mide el angulo de tus vectores o la longitud de tus rectas">Medidas</a></li>
+    </ul>
+  </nav>
+</div>
+
+<section class="home">
+  <div class="open-overlay" id="barras">
+    <span class="bar-top"></span>
+    <span class="bar-middle"></span>
+    <span class="bar-bottom"></span>
+  </div>
+</section>
+
+<div id="overlay" class="overlay"></div>
+
+<div class="imagenes" id="imagenes">
+
+  <video width="60%" id="img1" controls>
+  <source src="Wallpapers/puntos1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+  <video width="60%" id="img3" controls>
+  <source src="Wallpapers/puntos3.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+
+</div>
+
+<div class="imagenes" id="imagenes1">
+    <video width="60%" id="img4" controls>
+    <source src="Wallpapers/2018-11-27 16-02-35~1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</div>
+
+<div class="imagenes" id="imagenes1">
+
+  <video width="60%" id="img6" controls>
+  <source src="Wallpapers/2018-11-27 21-39-08~1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+
+</div>
+
+<div class="imagenes" id="imagenes1">
+
+  <video width="60%" id="img5" controls>
+  <source src="Wallpapers/2018-11-27 15-29-48~1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+
+</div>
+
+<div class="imagenes2" id="imagenes2">
+
+  <video width="60%" id="img31" controls>
+  <source src="Wallpapers/puntos3.1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+
+</div>
+
+<div class="imagenes3" id="imagenes3">
+
+  <video width="60%" id="img32" controls>
+  <source src="Wallpapers/2018-11-27 20-49-27~1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+
+</div>
+
+<div class="imagenes4" id="imagenes4">
+
+  <video width="60%" id="img33" controls>
+  <source src="Wallpapers/2018-11-27 16-23-30~1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+
+</div>
+
+<div class="imagenes2" id="imagenes2">
+
+  <video width="60%" id="img41" controls>
+  <source src="Wallpapers/2018-11-27 21-19-12~1.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+
+</div>
+
+
+<div class="titulos" id="titulos">
+  <h2 id="titulo1">
+    Basicos y Puntos
+  </h2>
+  <h2 id="titulo2">
+    Editar
+  </h2>
+  <h2 id="titulo3">
+    Lineas y Poligonos
+  </h2>
+  <h2 id="titulo4">
+    Planos
+  </h2>
+  <h2 id="titulo5">
+    Medidas
+  </h2>
+</div>
+<div class="tutos" id="tutos">
+  <p id="texto1">
+    ________________________________________________________________________________________________________________________ <br><br>Cuando comencemos a utilizar Geogebra 3D, tenemos que
+aprender las bases para poder utilizar al maximo los
+recursos que ofrece esta gran herramienta, estas bases
+basicas consisten en:<br><br>
+	&#8901; <b>Poner un punto en la grafica donde lo
+	necesitemos. Existen dos formas sencillas
+	para ubicar un punto dentro de nuestro espacio
+	tridimensional:</b> <br>
+		La primera es utilizar nuestro espacio
+		de escritura algebraica, el cual se
+		caracterisa por tener una calculadora
+		como icono que se encuentra en el menu
+		herramientas. En este espacio podemos
+		colocar uno o mas puntos de una manera
+		facil y precisa. Se empieza por poner
+		una letra mayuscula seguido de un signo
+		de igualdad y se abren parentesis donde
+		dentro de los mismos se colocan los
+		componentes respecto a x, y, y z. Por
+		ejemplo <i>"P=(1,-4,2)"</i>.<br>
+		La segunda opcion es utilizar la pestaña
+		de <i>"Tools"</i> caracterizada por su icono de
+		un circulo y un triangulo. Aqui se
+		selecciona un apartado llamado <i>"point"</i>,
+		lo que nos permite colocar cualquier
+		punto en los ejes coordenados mediante
+		el cursos de nuestra computadora. Esta
+		manera de colocar los puntos es mucho
+		menos precisa que la primera opcion,
+		pero es una herramienta rapida que
+		podemos utilizar a nuestro gusto.<br><br>
+	&#8901; <b>Mover puntos ya colocados previamente:</b><br>
+		Es demasiado sencillo, solo basta colocar
+		el cursor sobre el punto el cual queremos
+		mover y lo seleccionamos con <i>"click"</i>, si
+		lo mantenemos presionada podremos mover el
+		punto a cualquier region de nuestro
+		espacio.
+		La segunda manera es modificar las
+		componentes del punto en el espacio para
+		escribir dandole <i>"click"</i> sobre la
+		representacion escrita del punto.<br><br>
+	&#8901; <b>Esconder o cambiar de color un punto:</b><br>
+		Cuando se coloca un punto, al lado
+		izquierdo de donde lo escribimos, aparece
+		un circulo pintado normalmente de <i>"azul"</i>,
+		si damos <i>"click"</i> sobre este, el punto
+		desaparecerá del espacio de coordenadas
+		pero no en nuestro panel.
+  </p>
+  <p id="texto2">
+    ________________________________________________________________________________________________________________________ <br><br>Editar es una de la herramientas mas faciles de utilizar,
+solo cuenta con 3 opciones:<br><br>
+	<b>esconder etiqueta:</b><br>
+		&#8901; La etiqueta es la letra de identificacion
+		de los puntos o de cualquier otro elemento
+		Se puede mostrar o esonder para facilitar
+		la lectura de los graficos.<br><br>
+	<b>remplazar:</b><br>
+		&#8901; En este apartado se puede <i>"reemplazar"</i> algun
+		elemento por otro inmediatamente sin
+		necesidad de presionar el apartado de
+		<i>"eliminar"</i>.<br><br>
+	<b>eliminar:</b><br>
+		&#8901; Como su nombre lo dice, se presiona sobre
+		el apartado y despues se selecciona
+		cualquier elemento del espacio que se quiera
+		eliminar permanentemente.
+  </p>
+  <p id="texto3">
+    ________________________________________________________________________________________________________________________ <br><br>Especificar una recta, una semirecta o un segmento de recta
+    se hace entre dos puntos (seccion 1). En la pestaña de
+    herramientas hay 3 apartados en los cuales podemos
+    presionar y despues seleccionamos los puntos a los cuales
+    queremos que formen parte de alguno de los espacios
+    mencionados. Dentro del panel de escritura podemos
+    agregar la ecuacion de la recta y se plasmara dentro
+    del espacio, esto es en el caso que no contemos con
+    2 puntos como se muestra en el video.
+    Inclusive podemos unir cualquier punto,
+    aunque ya esten unidos con otros.
+  </p>
+  <p id="texto4">
+    ________________________________________________________________________________________________________________________ <br><br>Al igual que la linea recta (seccion 3) un plano se define
+    de la misma manera, se pueden definir en el panel de
+    escritura y en la pestaña <i>"Tools"</i>. Para definirla en
+    <i>"Tools"</i>, se debe presionar el apartado en
+    <i>"Plane through 3 Points"</i> y luego se seleccionan tres
+    puntos (seccion 1) o se definen ahi mismo.
+  </p>
+  <p id="texto5">
+    ________________________________________________________________________________________________________________________ <br><br>El apartado medidas es una herramienta que funciona con
+    absolutamente todo, nos ahorra tiempo a la hora de hacer
+    calculos, nos puede mostrar:<br><br>
+    	&#8901; <b>Angulos:</b> <br>
+    		Los angulos es uno de los datos que mas
+    		se ocupan para obtener cualquier tipo de
+    		informacion, ya sea de poligonos, superficies,
+    		entre lineas rectas, segmentos de recta,
+    		vectores, etc. El apartado que realiza este
+    		calculo lleva por nombre <i>"Angle"</i>.<br><br>
+    	&#8901; <b>Distancia:</b> <br>
+    		La distancia tambien es un dato de
+    		gran utilidad, se puede obtener de un vector o un
+    		segmento de recta. Su apartao es
+    		<i>"Distance or Length"</i>.<br><br>
+    	&#8901; <b>Volumen:</b> <br>
+    		El volumen de un poligono lo calcula el
+    		apartado <i>"Volume"</i>.<br><br>
+    	&#8901; <b>Area:</b> <br>
+    		El area se extrae de una superficie acotada
+    		por puntos-rectas, es de gran utilidad para
+    		obtener el area de superficies irregulares.<br>
+  </p>
+</div>
+
+<div class="tutos2" id="tutos2">
+  <p id="texto3_1">
+    ________________________________________________________________________________________________________________________ <br><br>Una vez tengamos definida alguna recta, semirecta o
+    segmento de recta, podemos realizar varias cosas con ella.
+    Podemos definir una recta paralela solo utilizando un
+    punto, el apartado "parallel Line" realiza este trabajo,
+    Podemos definir una recta perpendicular tambien utilizando
+    un punto, el apartado <i>"Perpendicular Line"</i> trabaja sobre
+    ello.
+  </p>
+  <p id="texto4_1">
+    ________________________________________________________________________________________________________________________ <br><br>Una vez se tenga definido un plano, se pueden realizar
+    varias cosas sobre él, asi como tambien sucedia en la
+    recta, utilizando el apartado <i>"Parallel Plane"</i> y
+    seleccionando un punto se crea un nuevo plano sobre el
+    punto, y se pueden definir cuantas veces se requiera.
+    Se puede generar tambien un plano mediante un vector
+    (seccion 3) y punto utilizando el apartado
+    <i>"Perpendicualar Plane"</i> y, como su nombre lo dice se crea
+    un plano perpendicular al propio vector o linea recta, y
+    al igual que en el caso anterior se puede crear uno
+    paralelo.
+  </p>
+</div>
+
+<div class="tutos3" id="tutos3">
+  <p id="texto3_2">
+    ________________________________________________________________________________________________________________________ <br><br>Un vector es una lista de elementos que tienen 3
+    caracteristicas particulares:<br>
+    	&#8901; tienen magnitud.<br>
+    	&#8901; tienen direccion.<br>
+    	&#8901; tienen sentido.<br><br>
+
+    Los vectores son mas utilizadas en el mundo de la fisica
+    del calculo y del algebra. Se puede definir utilizando el
+    apartado <i>"Vector"</i> o tambien se puede definir en el panel
+    de escritura iniciando con una letra minuscula por ejemplo
+    <i>"v = (2,1,2)"</i>. Incluso se puede hacer un vector paralelo
+    presionando el apartado <i>"Vector From Point"</i> y despues
+    seleccionando un punto.
+  </p>
+</div>
+
+<div class="tutos4" id="tutos4">
+  <p id="texto3_3">
+    ________________________________________________________________________________________________________________________ <br><br>Los poligonos tambien son una herramienta util para
+    verificar si dos o mas superficies se intersectan, en
+    Geogebra se permiten poner cualquier poligono de la forma
+    que necesitemos, conos, piramides, cubos, esferas, etc.
+    Varios apartados trabajan con poligonos, esta seccion se
+    encuentra en la pestaña de <i>"Tools"</i>.
+  </p>
+</div>
+
+<a id = "atras" class = "atras" href="#" onclick="Funcionmenu(6)">
+  <img border="0" alt="atras" src="Wallpapers/atras.png" width="40">
+</a></li>
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js'></script>
+
+<script src="js/menu.js"></script>
+
+</body>
+</html>
